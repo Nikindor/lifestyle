@@ -1,0 +1,57 @@
+header nav ul {
+    list-style: none;
+    font-size: 14px;
+    line-height: 19px;
+    color: #7D7D7D;
+}
+header {
+    width: 555px;
+    height: 19px;
+    left: 315px;
+    top: 71px;
+}
+main {
+    position: absolute;
+    width: 906px;
+    height: 1314px;
+    left: 147px;
+    top: 182px;
+}
+.nav-item1 {
+    color: #03A9F4;
+}
+button {
+    width: 165px;
+    height: 60px;
+    color: #626262;
+    font-family: Playfair Display;
+    font-style: normal;
+}
+.card {
+    width: 420px;
+    height: 546px;
+}
+.card a {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4AD9E;
+    text-decoration: none;
+}
+.card h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #626262;
+}
+.card div {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;
+}

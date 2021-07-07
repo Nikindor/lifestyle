@@ -4,6 +4,7 @@
 }
 body {
     margin: 0 auto;
+    background: #FFFFFF;
 }
 header nav ul {
     list-style: none;
@@ -12,33 +13,55 @@ header nav ul {
     color: #7D7D7D;
 }
 header {
+    position: absolute;
     width: 555px;
     height: 19px;
     left: 315px;
-    top: 71px;
+    top: 71px;    
 }
 main {
     position: absolute;
     width: 906px;
     height: 1314px;
     left: 147px;
-    top: 182px;
+    top: 182px;    
 }
 .nav-item1 {
     color: #03A9F4;
 }
 button {
-    width: 165px;
-    height: 60px;
     color: #626262;
     font-family: Playfair Display;
     font-style: normal;
+    position: absolute;
+    width: 165px;
+    height: 60px;
+    left: 506px;
+    top: 1436px;
+    border: 1px solid #626262;
 }
-.card {
-    width: 420px;
+.card1 {
+    position: absolute;
+    width: 420px;   
     height: 546px;
+    left: 148px;
+    top: 182px;
 }
-.card a {
+.card1 img {
+    position: absolute;
+    width: 420px;
+    height: 280px;
+    left: 148px;
+    top: 182px;
+}
+.card1 a {
+    list-style: none;
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 148px;
+    top: 524px;
+    font-family: Ubuntu;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -46,7 +69,12 @@ button {
     color: #B4AD9E;
     text-decoration: none;
 }
-.card h2 {
+.card1 h2 {
+    position: absolute;
+    width: 408px;
+    height: 40px;
+    left: 148px;
+    top: 572px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
@@ -54,11 +82,181 @@ button {
     line-height: 40px;
     color: #626262;
 }
-.card div {
+.card1 div {
+    position: absolute;
+    width: 420px;
+    height: 76px;
+    left: 148px;
+    top: 652px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
+    color: #626262;  
+}
+.card2 {
+    position: absolute;
+    width: 420px;   
+    height: 546px;
+    left: 633px;
+    top: 182px;
+}
+.card2 img {
+    position: absolute;
+    width: 420px;
+    height: 280px;
+    left: 148px;
+    top: 182px;
+}
+.card2 a {
+    list-style: none;
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 148px;
+    top: 524px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4AD9E;
+    text-decoration: none;
+}
+.card2 h2 {
+    position: absolute;
+    width: 408px;
+    height: 40px;
+    left: 148px;
+    top: 572px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
     color: #626262;
+}
+.card2 div {
+    position: absolute;
+    width: 420px;
+    height: 76px;
+    left: 148px;
+    top: 652px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;  
+}
+.card3 {
+    position: absolute;
+    width: 421px;
+    height: 516px;
+    left: 147px;
+    top: 858px;
+}
+.card3 img {
+    position: absolute;
+    width: 420px;
+    height: 280px;
+    left: 148px;
+    top: 182px;
+}
+.card3 a {
+    list-style: none;
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 148px;
+    top: 524px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4AD9E;
+    text-decoration: none;
+}
+.card3 h2 {
+    position: absolute;
+    width: 408px;
+    height: 40px;
+    left: 148px;
+    top: 572px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #626262;
+}
+.card3 div {
+    position: absolute;
+    width: 420px;
+    height: 76px;
+    left: 148px;
+    top: 652px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;  
+}
+.card4 {
+    position: absolute;
+    width: 420px;
+    height: 516px;
+    left: 633px;
+    top: 858px;
+}
+.card4 img {
+    position: absolute;
+    width: 420px;
+    height: 280px;
+    left: 148px;
+    top: 182px;
+}
+.card4 a {
+    list-style: none;
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 148px;
+    top: 524px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4AD9E;
+    text-decoration: none;
+}
+.card4 h2 {
+    position: absolute;
+    width: 408px;
+    height: 40px;
+    left: 148px;
+    top: 572px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #626262;
+}
+.card4 div {
+    position: absolute;
+    width: 420px;
+    height: 76px;
+    left: 148px;
+    top: 652px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;  
 }

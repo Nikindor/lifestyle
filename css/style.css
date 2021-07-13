@@ -12,12 +12,25 @@ header nav ul {
     line-height: 19px;
     color: #7D7D7D;
 }
+ul li {
+    float: left;
+    margin-right: 99px;
+}
 header {
     position: absolute;
-    width: 555px;
+    width: 700px;
     height: 19px;
     left: 315px;
     top: 71px;    
+}
+.clear {
+    clear: both;
+}
+footer {
+    text-align: center;
+}
+input[type=button] {
+    padding: 20px 30px;
 }
 main {
     position: absolute;
@@ -25,6 +38,7 @@ main {
     height: 1314px;
     left: 147px;
     top: 182px;    
+    float: left;
 }
 .nav-item1 {
     color: #03A9F4;
@@ -44,23 +58,18 @@ button {
     position: absolute;
     width: 420px;   
     height: 546px;
-    left: 148px;
-    top: 182px;
 }
 .card1 img {
     position: absolute;
     width: 420px;
     height: 280px;
-    left: 148px;
-    top: 182px;
 }
 .card1 a {
     list-style: none;
     position: absolute;
     width: 64px;
-    height: 16px;
-    left: 148px;
-    top: 524px;
+    height: 33px;
+    top: 342px;
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 300;
@@ -73,8 +82,7 @@ button {
     position: absolute;
     width: 408px;
     height: 40px;
-    left: 148px;
-    top: 572px;
+    top: 390px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
@@ -86,8 +94,7 @@ button {
     position: absolute;
     width: 420px;
     height: 76px;
-    left: 148px;
-    top: 652px;
+    top: 470px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
@@ -99,23 +106,19 @@ button {
     position: absolute;
     width: 420px;   
     height: 546px;
-    left: 633px;
-    top: 182px;
+    left: 486px;
 }
 .card2 img {
     position: absolute;
     width: 420px;
     height: 280px;
-    left: 148px;
-    top: 182px;
 }
 .card2 a {
     list-style: none;
     position: absolute;
     width: 64px;
     height: 16px;
-    left: 148px;
-    top: 524px;
+    top: 342px;
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 300;
@@ -128,8 +131,7 @@ button {
     position: absolute;
     width: 408px;
     height: 40px;
-    left: 148px;
-    top: 572px;
+    top: 390px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
@@ -141,8 +143,7 @@ button {
     position: absolute;
     width: 420px;
     height: 76px;
-    left: 148px;
-    top: 652px;
+    top: 470px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
@@ -154,23 +155,19 @@ button {
     position: absolute;
     width: 421px;
     height: 516px;
-    left: 147px;
-    top: 858px;
+    top: 676px;
 }
 .card3 img {
     position: absolute;
     width: 420px;
     height: 280px;
-    left: 148px;
-    top: 182px;
 }
 .card3 a {
     list-style: none;
     position: absolute;
     width: 64px;
     height: 16px;
-    left: 148px;
-    top: 524px;
+    top: 342px;
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 300;
@@ -183,8 +180,7 @@ button {
     position: absolute;
     width: 408px;
     height: 40px;
-    left: 148px;
-    top: 572px;
+    top: 390px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
@@ -196,8 +192,7 @@ button {
     position: absolute;
     width: 420px;
     height: 76px;
-    left: 148px;
-    top: 652px;
+    top: 470px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
@@ -209,23 +204,20 @@ button {
     position: absolute;
     width: 420px;
     height: 516px;
-    left: 633px;
-    top: 858px;
+    top: 676px;
+    left: 486px;
 }
 .card4 img {
     position: absolute;
     width: 420px;
     height: 280px;
-    left: 148px;
-    top: 182px;
 }
 .card4 a {
     list-style: none;
     position: absolute;
     width: 64px;
     height: 16px;
-    left: 148px;
-    top: 524px;
+    top: 342px;
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 300;
@@ -238,8 +230,7 @@ button {
     position: absolute;
     width: 408px;
     height: 40px;
-    left: 148px;
-    top: 572px;
+    top: 390px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
@@ -251,8 +242,7 @@ button {
     position: absolute;
     width: 420px;
     height: 76px;
-    left: 148px;
-    top: 652px;
+    top: 470px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;

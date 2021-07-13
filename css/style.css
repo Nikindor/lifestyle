@@ -65,8 +65,8 @@ button {
     height: 280px;
 }
 .card1 a {
-    list-style: none;
     position: absolute;
+    list-style: none;
     width: 64px;
     height: 33px;
     top: 342px;
@@ -201,23 +201,21 @@ button {
     color: #626262;  
 }
 .card4 {
-    position: absolute;
     width: 420px;
     height: 516px;
-    top: 676px;
-    left: 486px;
+    margin-top: 676px;
+    float: right;
 }
 .card4 img {
-    position: absolute;
     width: 420px;
     height: 280px;
+    margin-top: 0;
 }
 .card4 a {
     list-style: none;
-    position: absolute;
     width: 64px;
     height: 16px;
-    top: 342px;
+    margin-top: 32px;
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 300;
@@ -227,10 +225,9 @@ button {
     text-decoration: none;
 }
 .card4 h2 {
-    position: absolute;
     width: 408px;
     height: 40px;
-    top: 390px;
+    margin-top: 32px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
@@ -239,10 +236,9 @@ button {
     color: #626262;
 }
 .card4 div {
-    position: absolute;
     width: 420px;
     height: 76px;
-    top: 470px;
+    margin-top: 40px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
